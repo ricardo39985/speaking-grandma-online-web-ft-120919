@@ -14,10 +14,10 @@
 
 def speak_to_grandma(what_grandma_says)
   if what_grandma_says == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   elsif what_grandma_says == "WHAT DID YOU EAT TODAY?"||what_grandma_says == "WHAT?"
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   else
-    puts" HUH?! SPEAK UP, SONNY!"
+    return" HUH?! SPEAK UP, SONNY!"
   end
 end
