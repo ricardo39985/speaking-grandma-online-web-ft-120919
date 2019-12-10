@@ -18,6 +18,6 @@ def speak_to_grandma(what_grandma_says)
   elsif what_grandma_says == "WHAT DID YOU EAT TODAY?"||what_grandma_says == "WHAT?"
     puts "NO, NOT SINCE 1938!"
   else
-    puts" HUH?! SPEAK UP, SONNY!
+    puts" HUH?! SPEAK UP, SONNY!"
   end
 end
